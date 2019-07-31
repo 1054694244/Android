@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.firstapptest">
 
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +11,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".DialogActivity">
+        </activity>
+        <activity android:name=".NormalActivity">
+        </activity>
+        <!--standard：每次都创建新实例，不管该实例在不在栈顶--><!--默认-->
+        <!--singleTop：如果栈顶是该活动，则直接使用它，反之创建新活动-->
+        <!--singleTask：如果栈中有该活动，则使用该活动，反之则创建新活动-->
+        <!--dingleInstance：多个应用中单独创建一个栈来管理这个活动，只会出现一个活动-->
+        <activity android:name=".MainActivity"
+            android:launchMode="standard">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
