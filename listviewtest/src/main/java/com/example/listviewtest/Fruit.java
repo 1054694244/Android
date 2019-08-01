@@ -7,10 +7,10 @@ public class Fruit {
 
     private String name;
 
-    private String imageId;
+    private int imageId;
 
 
-    public Fruit(String name,String imageId){
+    public Fruit(String name,int imageId){
         this.name = name;
         this.imageId = imageId;
     }
