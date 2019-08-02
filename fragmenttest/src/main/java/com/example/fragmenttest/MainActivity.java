@@ -1,3 +1,4 @@
+/*
 package com.example.fragmenttest;
 
 import android.os.Bundle;
@@ -32,3 +33,4 @@ public class MainActivity extends AppCompatActivity {
     }
 
 }
+*/
