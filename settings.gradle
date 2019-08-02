@@ -1,1 +1,1 @@
-include ':app', ':ui', ':listviewtest', ':recyclerviewtest', ':qq', ':fragmenttest', ':fragmentbestpractice'
+include ':app', ':ui', ':listviewtest', ':recyclerviewtest', ':qq', ':fragmenttest', ':fragmentbestpractice', ':broadcasttest'
