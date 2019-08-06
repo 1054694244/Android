@@ -59,6 +59,7 @@ public class LoginActivity extends BaseActivity {
                     editor.putBoolean("remember_password",true);
                     editor.putString("account",account);
                     editor.putString("password", password);
+                    editor.apply();
                 }else {
                     editor.clear();
                 }
