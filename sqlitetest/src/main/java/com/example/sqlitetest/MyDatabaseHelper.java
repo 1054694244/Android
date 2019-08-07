@@ -4,7 +4,6 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
-import android.widget.Toast;
 
 public class MyDatabaseHelper extends SQLiteOpenHelper {
 
@@ -35,7 +34,6 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
         Log.d("NIHAO","NIBUHAO");
         db.execSQL(CREATE_BOOK);
         db.execSQL(CREATE_CATEGORY);
-        Toast.makeText(mContent,"CREATE SUCCESS",Toast.LENGTH_SHORT).show();
     }
 
 
